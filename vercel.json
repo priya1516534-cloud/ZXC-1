@@ -2,9 +2,6 @@
   "functions": {
     "api/bot.py": {
       "maxDuration": 10
-    },
-    "api/setup.py": {
-      "maxDuration": 10
     }
   },
   "rewrites": [
