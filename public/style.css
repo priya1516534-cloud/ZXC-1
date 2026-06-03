@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #666;
+}
+
+.status-card {
+    background: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #667eea;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.status-badge.online {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-badge.offline {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.status-badge.unknown {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+.actions {
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-right: 15px;
+}
+
+.btn.primary {
+    background: #667eea;
+    color: white;
+}
+
+.btn.secondary {
+    background: #764ba2;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.info {
+    background: #f1f3f5;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.info ol {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.6;
+      }
